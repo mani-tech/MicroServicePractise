@@ -12,7 +12,7 @@ public class EmployeeRestController {
 	@GetMapping("/employee")
 	public String getEmp()
 	{
-		return "From Employee"+portNo;
+		return "From Employee Having the Port No is "+portNo;
 	}
 
 }
